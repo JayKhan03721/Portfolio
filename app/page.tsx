@@ -15,7 +15,9 @@ import RecentProjects from "@/components/RecentProjects";
 
 // ✅ Avoid name conflict with route dynamic export
 import NextDynamic from "next/dynamic";
-const FloatingNav = NextDynamic(() => import("./FloatingNav"), { ssr: false });
+const FloatingNav = dynamic(() => import("@/components/FloatingNav"), {
+  ssr: false,
+});
 
 const Home = () => {
   return (
