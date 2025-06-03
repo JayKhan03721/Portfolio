@@ -1,7 +1,5 @@
 "use client";
 
-export const dynamicSetting = "force-dynamic";
-
 import { useEffect } from "react";
 import { navItems } from "@/data";
 
