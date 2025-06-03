@@ -13,8 +13,9 @@ import Approach from "@/components/Approach";
 import Experience from "@/components/Experience";
 import RecentProjects from "@/components/RecentProjects";
 
-// ✅ Dynamic import here:
-import dynamic from "next/dynamic";
+import dynamic from "next/dynamic"; // ✅ Only once
+
+// ✅ Dynamically import FloatingNav with no SSR
 const FloatingNav = dynamic(() => import("./FloatingNav"), { ssr: false });
 
 const Home = () => {
