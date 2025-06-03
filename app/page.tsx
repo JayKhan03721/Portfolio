@@ -13,10 +13,8 @@ import Approach from "@/components/Approach";
 import Experience from "@/components/Experience";
 import RecentProjects from "@/components/RecentProjects";
 
-// ✅ Alias the import to avoid name conflict
+// ✅ Avoid name conflict with route dynamic export
 import NextDynamic from "next/dynamic";
-
-// ✅ No SSR for FloatingNav
 const FloatingNav = NextDynamic(() => import("./FloatingNav"), { ssr: false });
 
 const Home = () => {
