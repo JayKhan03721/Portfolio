@@ -1,5 +1,5 @@
 {
-  "name": "Portfolio",
+  "name": "portfolio",
   "homepage": "https://JayKhan03721.github.io/Portfolio",
   "version": "0.1.0",
   "private": true,
@@ -8,6 +8,7 @@
   "build": "next build && next export",
   "start": "next start",
   "lint": "next lint",
+  "predeploy": "npm run build",
   "deploy": "gh-pages -d dist"
 },
   "dependencies": {
