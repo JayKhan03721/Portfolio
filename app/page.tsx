@@ -12,13 +12,12 @@ import Experience from "@/components/Experience";
 import RecentProjects from "@/components/RecentProjects";
 import { FloatingNav } from "@/components/ui/FloatingNavbar";
 
+// ⛔ Don't forget this!
+export const dynamic = "force-dynamic";
+
 const Home = () => {
   useEffect(() => {
-    // ✅ This is where it's safe to use document
-    // Example: dynamically injecting a script tag (if needed)
-    // const script = document.createElement('script');
-    // script.src = 'https://example.com/script.js';
-    // document.head.appendChild(script);
+    // safe use of document or window
   }, []);
 
   return (
