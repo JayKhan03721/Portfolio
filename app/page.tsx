@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic"; // ⬅️ Add this
+
 import { useEffect } from "react";
 import { navItems } from "@/data";
 
@@ -12,12 +14,9 @@ import Experience from "@/components/Experience";
 import RecentProjects from "@/components/RecentProjects";
 import { FloatingNav } from "@/components/ui/FloatingNavbar";
 
-// ⛔ Don't forget this!
-export const dynamic = "force-dynamic";
-
 const Home = () => {
   useEffect(() => {
-    // safe use of document or window
+    // Safe to use document/window here
   }, []);
 
   return (
