@@ -1,6 +1,6 @@
 "use client";
 
-export const dynamic = "force-dynamic"; // ⬅️ Add this
+export const dynamic = "force-dynamic";
 
 import { useEffect } from "react";
 import { navItems } from "@/data";
@@ -12,13 +12,12 @@ import Clients from "@/components/Clients";
 import Approach from "@/components/Approach";
 import Experience from "@/components/Experience";
 import RecentProjects from "@/components/RecentProjects";
-import { FloatingNav } from "@/components/ui/FloatingNavbar";
+
+// ✅ Dynamic import here:
+import dynamic from "next/dynamic";
+const FloatingNav = dynamic(() => import("./FloatingNav"), { ssr: false });
 
 const Home = () => {
-  useEffect(() => {
-    // Safe to use document/window here
-  }, []);
-
   return (
     <main className="relative bg-black-100 flex justify-center items-center flex-col overflow-hidden mx-auto sm:px-10 px-5">
       <div className="max-w-7xl w-full">
