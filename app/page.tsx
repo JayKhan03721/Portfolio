@@ -13,9 +13,9 @@ import Approach from "@/components/Approach";
 import Experience from "@/components/Experience";
 import RecentProjects from "@/components/RecentProjects";
 
-// ✅ Avoid name conflict with route dynamic export
-import NextDynamic from "next/dynamic";
-const FloatingNav = dynamic(() => import("@/components/FloatingNav"), {
+import dynamic from "next/dynamic";
+
+const FloatingNav = dynamic(() => import("@/components/ui/FloatingNav"), {
   ssr: false,
 });
 
