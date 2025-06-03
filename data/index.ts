@@ -8,12 +8,13 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "Building trust with clients by fostering open dialogue and collaboration ",
+    title:
+      "Building trust with clients by fostering open dialogue and collaboration ",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
-    img: "/b1.svg",
+    img: "b1.svg",
     spareImg: "",
   },
   {
@@ -38,7 +39,8 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "Web developer specializing in front-end, eager to expand into all areas of web development.",
+    title:
+      "Web developer specializing in front-end, eager to expand into all areas of web development.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -49,7 +51,8 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently working on a dynamic 3D animated game with interactive elements.",
+    title:
+      "Currently working on a dynamic 3D animated game with interactive elements.",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -83,7 +86,7 @@ export const projects = [
     title: "My Portfolio Website",
     des: "A portfolio website designed to showcase creativity, interactivity, and unique digital design.",
     img: "/Portfolio.jpg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", ],
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
     link: "", // TODO: Add live link here later
   },
   {
@@ -104,11 +107,10 @@ export const projects = [
   },
 ];
 
-
 export const testimonials = [
   {
     quote:
-    "Throughout my journey in web design and development, I’ve had the opportunity to work on a variety of creative projects that reflect both technical skill and artistic vision. From building fully responsive, interactive websites to crafting custom 3D experiences, each project has helped me grow and refine my craft.Notable achievements include designing animated user interfaces, developing cross-device experiences, and replicating high-profile websites to push my creative limits. These experiences continue to fuel my passion for creating meaningful digital experiences.",
+      "Throughout my journey in web design and development, I’ve had the opportunity to work on a variety of creative projects that reflect both technical skill and artistic vision. From building fully responsive, interactive websites to crafting custom 3D experiences, each project has helped me grow and refine my craft.Notable achievements include designing animated user interfaces, developing cross-device experiences, and replicating high-profile websites to push my creative limits. These experiences continue to fuel my passion for creating meaningful digital experiences.",
     name: "Jamal Khan",
     title: "Creator of this portfolio",
     image: "/MyLOGO.png", // unique image path
@@ -162,18 +164,18 @@ export const companies = [
     img: "/BIT.jpeg",
     nameImg: "/BITName.jpeg",
   },
-  {
-    id: 4,
-    name: "stream",
-    img: "/s.svg",
-    nameImg: "/streamName.svg",
-  },
-  {
-    id: 5,
-    name: "docker.",
-    img: "/dock.svg",
-    nameImg: "/dockerName.svg",
-  },
+  // {
+  //   id: 4,
+  //   name: "stream",
+  //   img: "/s.svg",
+  //   nameImg: "/streamName.svg",
+  // },
+  // {
+  //   id: 5,
+  //   name: "docker.",
+  //   img: "/dock.svg",
+  //   nameImg: "/dockerName.svg",
+  // },
 ];
 
 export const workExperience = [
