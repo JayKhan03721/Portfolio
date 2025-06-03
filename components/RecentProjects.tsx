@@ -19,13 +19,12 @@ const RecentProjects = () => {
             key={item.id}
           >
             <PinContainer title={item.link} href={item.link}>
-
               <div className="relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[20vh] lg:h-[30vh] mb-10">
                 <div
                   className="relative w-full h-full overflow-hidden lg:rounded-3xl"
                   style={{ backgroundColor: "#13162D" }}
                 >
-                  <img src="/bg.png" alt="bgimg" />
+                  <img src="bg.png" alt="bgimg" />
                 </div>
                 <img
                   src={item.img}
@@ -63,15 +62,14 @@ const RecentProjects = () => {
                   ))}
                 </div>
                 <a
-  href={item.link}
-  target="_blank"
-  rel="noopener noreferrer"
-  className="flex items-center text-purple lg:text-xl md:text-xs text-sm"
->
-  <span>Check Live Site</span>
-  <FaLocationArrow className="ms-3" color="#CBACF9" />
-</a>
-
+                  href={item.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center text-purple lg:text-xl md:text-xs text-sm"
+                >
+                  <span>Check Live Site</span>
+                  <FaLocationArrow className="ms-3" color="#CBACF9" />
+                </a>
               </div>
             </PinContainer>
           </div>

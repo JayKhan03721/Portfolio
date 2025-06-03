@@ -87,7 +87,7 @@ export const projects = [
     des: "A portfolio website designed to showcase creativity, interactivity, and unique digital design.",
     img: "Portfolio.jpg",
     iconLists: ["next.svg", "tail.svg", "ts.svg"],
-    link: "", // TODO: Add live link here later
+    link: "https://jaykhan03721.github.io/Portfolio-qtp/", // TODO: Add live link here later
   },
   {
     id: 3,
@@ -95,7 +95,7 @@ export const projects = [
     des: "My first progect created using Vite + React",
     img: "Nalico.png",
     iconLists: ["re.svg", "tail.svg", "ts.svg", "three.svg", "c.svg"],
-    link: "https://jaykhan03721.github.io", // TODO: Add live link here laterllllllllllllllllllllllllllllllllllllllllllll
+    link: "https://jaykhan03721.github.io/TeamProject/", // TODO: Add live link here
   },
   {
     id: 4,
