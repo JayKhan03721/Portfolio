@@ -57,7 +57,7 @@ const Hero = () => {
       </div>
 
      ✅ 3D Model (does not block the grid now)
-      <div className="absolute bottom-0 right-0 w-[350px] h-[450px] z-990 pointer-events-auto translate-x-8 translate-y-8">
+      <div className="hidden md:block absolute bottom-0 right-0 w-[350px] h-[450px] z-990 pointer-events-auto translate-x-8 translate-y-8">
         <spline-viewer
           url="https://prod.spline.design/PjbzDts-4umEAT-S/scene.splinecode"
           style={{

@@ -3,7 +3,7 @@
 const isProd = process.env.NODE_ENV === 'production';
 
 const nextConfig = {
-  basePath: isProd ? 'Portfolio-qtp' : '',
+  basePath: isProd ? '/Portfolio-qtp' : '',
   output: 'export',
   distDir: 'dist',
   images: {
