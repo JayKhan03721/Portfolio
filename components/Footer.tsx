@@ -1,8 +1,6 @@
 import { FaLocationArrow } from "react-icons/fa6";
-
 import { socialMedia } from "@/data";
 import MagicButton from "./MagicButton";
-
 import Image from "next/image";
 
 const Footer = () => {
@@ -20,7 +18,8 @@ const Footer = () => {
 
       <div className="flex flex-col items-center">
         <h1 className="heading lg:max-w-[45vw]">
-          Let's <span className="text-purple">build</span> Something together
+          Let&rsquo;s <span className="text-purple">build</span> Something
+          together
         </h1>
         <p className="text-white-200 md:mt-10 my-5 text-center">
           I&rsquo;m currently growing my skills and open to opportunities where
@@ -29,7 +28,7 @@ const Footer = () => {
         </p>
         <a href="mailto:contact@jsmastery.pro">
           <MagicButton
-            title="Let&rsquo;s get in touch"
+            title="Let’s get in touch"
             icon={<FaLocationArrow />}
             position="right"
           />
