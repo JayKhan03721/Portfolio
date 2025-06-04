@@ -3,15 +3,18 @@ import { FaLocationArrow } from "react-icons/fa6";
 import { socialMedia } from "@/data";
 import MagicButton from "./MagicButton";
 
+import Image from "next/image";
+
 const Footer = () => {
   return (
     <footer className="w-full pt-20 pb-10" id="contact">
       {/* background grid */}
       <div className="w-full absolute left-0 -bottom-72 min-h-96">
-        <img
-          src="footer-grid.svg"
+        <Image
+          src="/footer-grid.svg"
           alt="grid"
-          className="w-full h-full opacity-50 "
+          fill
+          className="w-full h-full opacity-50"
         />
       </div>
 
@@ -20,9 +23,9 @@ const Footer = () => {
           Let's <span className="text-purple">build</span> Something together
         </h1>
         <p className="text-white-200 md:mt-10 my-5 text-center">
-          I'm currently growing my skills and open to opportunities where I can
-          learn, contribute, and help bring ideas to life. Feel free to reach
-          out!
+          I&rsquo;m currently growing my skills and open to opportunities where
+          I can learn, contribute, and help bring ideas to life. Feel free to
+          reach out!
         </p>
         <a href="mailto:contact@jsmastery.pro">
           <MagicButton
