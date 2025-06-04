@@ -29,7 +29,7 @@ const Footer = () => {
         </p>
         <a href="mailto:contact@jsmastery.pro">
           <MagicButton
-            title="Let's get in touch"
+            title="Let&rsquo;s get in touch"
             icon={<FaLocationArrow />}
             position="right"
           />
