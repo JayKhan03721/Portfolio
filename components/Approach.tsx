@@ -13,11 +13,9 @@ const Approach = () => {
       <div className="my-20 flex flex-col lg:flex-row items-center justify-center w-full gap-4">
         {/* add des prop */}
         <Card
-         title="Planning & Strategy"
-         icon={<AceternityIcon order="Phase 1" />}
-         des="My process starts with visualizing ideas—translating concepts into wireframes and layouts using Figma. 
-         This helps shape the website’s structure, user flow, and overall experience before development begins."
-         
+          title="Planning & Strategy"
+          icon={<AceternityIcon order="Phase 1" />}
+          des="My process begins with visualizing ideas turning rough concepts into structured layouts using tools like Figma and AI assisted design helpers. This early stage allows me to experiment, refine user flow, and ensure the overall structure makes sense before diving into code. By planning visually, I stay focused and build with clarity and purpose."
         >
           <CanvasRevealEffect
             animationSpeed={5.1}
@@ -26,12 +24,11 @@ const Approach = () => {
           />
         </Card>
         <Card
-         title="Development & Progress"
-         icon={<AceternityIcon order="Phase 2" />}
-         des="With a clear plan in place, I move into development—coding designs into responsive, 
-         interactive websites. I double-check and refine my code throughout the process, often exploring 
+          title="Development & Progress"
+          icon={<AceternityIcon order="Phase 2" />}
+          des="With a clear plan in place, I move into development coding designs into responsive, 
+         interactive websites. I double check and refine my code throughout the process, often exploring 
          new solutions and creative ideas with the help of ChatGPT."
-         
         >
           <CanvasRevealEffect
             animationSpeed={3}
@@ -49,10 +46,10 @@ const Approach = () => {
           {/* <div className="absolute inset-0 [mask-image:radial-gradient(400px_at_center,white,transparent)] bg-black/50 dark:bg-black/90" /> */}
         </Card>
         <Card
-         title="Development & Launch"
-         icon={<AceternityIcon order="Phase 3" />}
-         des="This is where ideas come to life. Using the finalized design as a guide, I bring everything together—writing clean, functional code to build the full website experience from the ground up.">
-         
+          title="Development & Launch"
+          icon={<AceternityIcon order="Phase 3" />}
+          des="Once the design is ready, I build the site with clean, structured code and host it live. I test for bugs and make quick adjustments to ensure everything runs smooth"
+        >
           <CanvasRevealEffect
             animationSpeed={3}
             containerClassName="bg-sky-600 rounded-3xl overflow-hidden"

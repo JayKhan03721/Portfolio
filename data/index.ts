@@ -9,7 +9,7 @@ export const gridItems = [
   {
     id: 1,
     title:
-      "Building trust with clients by fostering open dialogue and collaboration ",
+      "I'm always eager to learn and open to new experiences that help me grow and improve.",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
@@ -19,7 +19,7 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: "I'm Very flexible with time and communication.",
+    title: "I'm easy to reach, open to feedback, and always willing to adapt.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
@@ -40,7 +40,7 @@ export const gridItems = [
   {
     id: 4,
     title:
-      "Web developer specializing in front-end, eager to expand into all areas of web development.",
+      "I'm gaining experience in front-end development and working to understand the full scope of web development",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -94,7 +94,7 @@ export const projects = [
     title: "My First Project",
     des: "My first progect created using Vite + React",
     img: "Nalico.png",
-    iconLists: ["re.svg", "tail.svg", "ts.svg", "three.svg", "c.svg"],
+    iconLists: ["re.svg", "vite.svg"],
     link: "https://jaykhan03721.github.io/TeamProject/", // TODO: Add live link here
   },
   {
